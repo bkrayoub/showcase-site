@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Antonio', sans-serif; ;
+}
+#location{
+    text-align: center;
+}
+.map{margin: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#imgmap{
+    width: 50%;
+    
+
+}
+#achnadmap{
+width: 110%;
+border: solid 10px;
+border-color: brown;
+border-radius: 22px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+#imgcity{
+    
+    width: 31%;
+    color: brown;
+    background-color:#EDB217;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+#imgcity h1{
+    text-align: center;
+    color: black;
+}
+.citys{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Casablanca{
+    margin-left: 3px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: rgb(0, 161, 0);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(0, 161, 0);
+}
+#tanger{
+    margin-left: 5px;
+    color: #00a100;
+    border: solid 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px 29px;
+    background-color: rgb(255, 255, 255);
+}
+#tetouan{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: #CD1717;
+    border-radius: 10px;
+    padding: 7px 30px;
+    background-color: #CD1717;
+}
+#rabat{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: rgb(0, 161, 0);
+    border-radius: 10px;
+    padding: 7px 30px;
+    background-color: rgb(0, 161, 0);
+}
+#oujda{
+    margin-left: 5px;
+    color: #00a100;
+    border: solid 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+}
+#marakech{
+    margin-left: 4px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: #CD1717;
+    border-radius: 10px;
+    padding: 7px 40px;
+    background-color: #CD1717;
+}
+#fes{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: rgb(0, 161, 0);
+    border-radius: 10px;
+    padding: 7px 30px;
+    background-color: rgb(0, 161, 0);
+}
+#asilah{
+    margin-left: 5px;
+    color: #00a100;
+    border: solid 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px 30px;
+    background-color: rgb(255, 255, 255);
+}
+#meknes{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: #CD1717;
+    border-radius: 10px;
+    padding: 7px 30px;
+    background-color: #CD1717;
+}
+#chefch{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: rgb(0, 161, 0);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(0, 161, 0);
+}
+#kenitra{
+    margin-left: 5px;
+    color: #00a100;
+    border: solid 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+}
+#agadir{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: #CD1717;
+    border-radius: 10px;
+    padding: 7px 40px;
+    background-color: #CD1717;
+}
+footer{
+    height: 8cm;
+    background-color: #090504;
+    margin-top: 1cm;
+}
+footer h1{
+    color: white;
+    text-align: center;
+}
+form{
+    margin-top: 2cm;
+    margin-left: 30%;
+
+}
+form input{
+    border: solid;
+    border-color: #EDB217;
+    border-radius: 20px;
+    width: 250px;
+    padding: 8px;
+    margin-left: 15px;
+}
+
+#gooo{
+    margin-left: 50%;
+    margin-top: 1cm;
+    border: solid#EDB217;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+#gooo:hover{
+    margin-left: 50%;
+    margin-top: 1cm;
+    color: #000000;
+    border: solid#EDB217;
+    background-color: #EDB217;;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+.copuright{
+    height: 1cm;
+    background-color: #313131;
+}
