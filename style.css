@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header slogo{
+
+}
+nav{
+    display: flex;
+    background-color: #202020;
+    color: white;
+    height: 70px;
+}
+nav h2{
+    margin: 0px 20px;
+}
+#nav-contant{
+    display: flex;
+
+}
+nav i{
+    color: blue;
+    height: ;
+}
