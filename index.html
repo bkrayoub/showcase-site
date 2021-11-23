@@ -6,20 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
     <title>Mama Mia | home</title>
 </head>
 <body>
+    <a href="#" id="arrowup"><i class="fas fa-arrow-up"></i></a>
+    <!-- <div id="sidemenu">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>CONTACT US</li>
+        </ul>
+    </div> -->
     <header>
-        <nav>
-            <img src="img\logomar.png" alt="" height="90px">
-            <div id="nav-contant">
-                <h2>HOME</h2>
-                <H2>ABOUT</H2>
-                <H2>CONTACT US</H2>
+            <div id="logos">                
+                <img src="img\logo.png" alt="" id="left-logo">
+                <img src="img\center-mobile-logo.png" alt="" id="west">
+                <div id="right-menu">
+                    <button>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
             </div>
-            <i class="fas fa-map-marker-alt"></i>
+        <nav>
+            <img src="img\desktop-logo.png" alt="" height="90px" id="logo">
+            <div id="nav-contant">
+                <a href="index.html"><h2>HOME</h2></a>
+                <a href="#info"><H2>ABOUT US</H2></a>
+                <a href="#comment"><H2>CONTACT US</H2></a>
+            </div>
         </nav>
         <div id="slogo">
+            <p><span>TUTTE</span> LE STRADE<br><SPan> PORTANO</SPan> AL RISTORANTE DI <br><span>Mama Mia!</span></p>
             <video id="bgvid" poster="video\bg-poster.jpg" autoplay muted loop>
                 <source src="video\background.mp4" type="video/mp4">
             </video>
@@ -28,60 +46,114 @@
     <main>
         <aside>
             <div id="personal-card">
-                <img src="img\marcelloferrarini.jpg" alt=""> 
+                <img src="img\marcelloferrarini.png" alt=""> 
                 <h3>Marcello Ferrarini</h3>
                 <p>Martislo is an Italian chef and restaurant owner. His restaurants have been awarded 16 Michelin stars, two have been pulled, and he has maintained 14 stars. His signature restaurant in Chelsea.</p>
             </div>
             <div id="email-updates-input">
-                <h2>ADD YOUR EMAIL AND RECEIVE THE LATEST UPDATES</h2>
+                <h2>ADD YOUR EMAIL <br> AND <br> RECEIVE THE LATEST UPDATES</h2>
                 <form>
-                    <input type="text" placeholder="Email">
-                    <input type="button" placeholder="GO">
+                    <input type="text" placeholder="Email" id="email-input">
+                    <input type="button" value="GO" id="go">
                 </form>
             </div>
-    </aside>
-    <section>
-        <h2>Live With <span>pizza</span> in an atmosphere full of <span>elegance</span></h2>
-        <div>
-            <img src="img\resto.jpg" alt="" width="100%">
-        </div>
-        <p>Restaurant Mamma Mia! is an Italian restaurant with several branches around th e world. This is the only branch in North Africa and the Middle East. welcome.</p>
-        <div>
-            <img src="img\sushi-pizza.jpg" alt="">
-            <p>Sushi pizza is a Canadian dish that originated from Toronto.</p>
-        </div>
-        <div>
-            <img src="img\Seafood-Pizza.jpg" alt="">
-            <p>Subvarieties include Pizza frutti di mare (no cheese) and Pizza pescatore (with mussels or squid).</p>
-        </div>
-        <div>
-            <img src="img\Capricciosa-pizza.jpg" alt="">
-            <p>Pizza capricciosa is a style of pizza in Italian cuisine prepared with mozzarella cheese, Italian baked ham, mushroom, artichoke and tomato.</p>
-        </div>
-    </section>
+        </aside>
+            <section id="info">
+                <div id="restore">
+                    <h1>ABOUT US</h1>
+                    <h2>Live with <span>pizza</span> in an atmosphere full of <span>elegance</span>.</h2>
+                    <img src="img/resto.png" alt="">
+                    <p>Restaurant Mamma Mia! is an Italian restaurant
+                        with several branches around th e world. This is the only branch in North Africa and the Middle East. welcome.</p>
+                        <HR>
+                            <H1>MENU</H1>
+                <div id="Menu">
+                    <div class="pizzas">
+                        <img src="/img/lwl.png" alt="">
+                        <h3>Hom & Crab Stick<br>49,00 MAD</h3>
+                        
+                    </div>
+                    <div class="pizzas">
+                        <img src="/img/tani.png" alt="">
+                        <h3>Park Deluxe<br>79,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="/img/talet.png" alt="">
+                        <h3>Double Pepporoni<br>35,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="/img/rabe3.png" alt="">
+                        <h3>pizza Margherita <br>35,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="/img/khames.png" alt="">
+                        <h3>Double Pepporoni <br>15,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="/img/lakher.png" alt="">
+                        <h3>Super Seofood <br>120,00 MAD</h3>
+                    </div>
+                </div>
+            </section>
     </main>
     <footer>
-        <p>How was your experience? Let us know by adding a comment 😊</p>
-        <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Email">
-            <input type="button" placeholder="COMMENT">
-            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+        <section id="comment">
+            <h1>CONTACT US</h1> 
+        <form id="for-desktop">
+            
+                <div class="inputs 1">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Email">
+                    <input type="button" value="comment" id="comment-btn">
+                </div>
+
+                <div class="inputs 2">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Message" id="message"> 
+                </div>
         </form>
+        <h1 style="color: #EDB217; margin-bottom: 50px;" id="cntct">CONTACT US</h1> 
+        <div id="for-mobile">
+            <form action="">
+                <input type="First Name" placeholder="First Name">
+                <input type="Last Name" placeholder="Last Name">
+                <input type="Email" placeholder="Email">
+                <input type="Message" placeholder="Message">
+                <input type="button" value="SEND" id="btnn">
+            </form>
+        </div>       
+                    <!-- <textarea cols="30" rows="10" placeholder="Message"></textarea> -->
+        <div class="cousservice">
+            <DIV id="phonne">
+                <i id="icoonn" class="fas fa-phone-alt"></i>
+                <h2 id="contactus">+212678789900</h2> 
+            </DIV>
+            <div id="emailll">
+                <i id="icoonn" class="fas fa-envelope"></i>
+                <h2  id="contactus">mamiamar@gmail.com</h2>
+            </div>
+        </div>
+            <h2 id="ourloca">OUR LOCATION IS <span id="here"> HERE</h2></span>
+            <iframe id="achnadmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4337.79483546398!2d-5.8320983989741375!3d35.73574311913992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b8723da9858c3%3A0x6dd7cf06b3bdd6f!2zU2Nob29sIEhhc3NhbiAyINir2KfZhtmI2YrYqSDYp9mE2K3Ys9mGIElp!5e1!3m2!1sen!2sma!4v1637138664092!5m2!1sen!2sma" allowfullscreen="" loading="lazy"></iframe>   
+           
+        </section>
         <div id="copy-right">
             <div id="s-icons">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-twitter"></i>
             </div>
-            <p>© 2021 Mama Mia. All right reserved. <span>Terms of Use and Privacy Policy</span></p>
-            <div id="flag">
-                <img src="img\italy.png" alt="">
-                <img src="img\morocco.png" alt="">
+            <div id="copy-right-content">
+                <p>© 2021 Mama Mia. All right reserved. <span>Terms of Use and Privacy Policy</span></p>
+                <div id="flag">
+                    <img src="img\italy.png" alt="" height="30px">
+                    <img src="img\morocco.png" alt="" height="30px">
+                    <img src="/img/halal.png" alt="" height="30px">
+                </div>
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
     
 </body>
 </html>
