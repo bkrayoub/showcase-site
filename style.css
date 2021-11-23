@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Satisfy&display=swap');
+
+
+
+
+@media (min-width:930px){
+
+body {
+    font-family: 'Antonio', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #202020;
+}
+
+#arrowup{
+    
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 30px;
+    z-index: 5;
+    position: absolute;
+    background-color: #EDB217;
+    color: #202020;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+}
+#manuBtn{
+    display: none;
+}
+#sideNav{
+    display: none;
+}
+
+span{
+    color: #EDB217;
+}
+nav {
+    width: 100%;
+    z-index: 6;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #202020;
+    color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    padding-left: 50px;
+}
+nav h2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    margin-left: 50px;
+    padding: 7px ;
+    color: #EDB217;
+    background-color: transparent;
+    border:2px solid #EDB217;
+}
+nav h2:hover {
+    background-color: #EDB217;
+    color: white;
+}
+#nav-contant {
+    
+    display: flex;
+    padding-right: 15%;
+}
+#nav-contant a {
+    text-decoration: none;
+}
+#slogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#slogo p{
+    z-index: 4;
+    font-size: 10vh;
+    color: white;
+
+    position: absolute;
+}
+#logos{
+    display: none;
+}
+video{ 
+    /* filter: blur(8px); */
+    z-index: 3;
+    width: 100%;  
+}
+
+
+#brgr {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+#brgr:focus {
+    outline: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside {
+    width: 60VH;
+}
+
+
+
+#personal-card{
+    font-family: 'Arapey', serif;
+    background-color: #EDB217;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 0px 0px 0px 0px;
+}
+#personal-card img {
+    border-radius: 25px;
+    margin-top: 40px;
+    width: 100%;
+}
+#personal-card h3 {
+    font-size: 30px;
+}
+#personal-card p {
+    font-size: 25px;
+}
+
+
+
+#email-updates-input {
+    color: #EDB217;
+    padding: 25px 20px 25px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 0px 0px 0px 25px;
+}
+#email-updates-input form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#email-updates-input input {
+    border: 3px solid #EDB217;
+    border-radius: 50px;
+    height: 50px;
+    outline: none;
+    margin-top: 50px;
+}
+#email-updates-input input::placeholder{
+    font-style: italic;
+}
+#email-input{
+    font-size: 18px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+#email-input:hover{
+    background-color: rgb(245, 245, 245);
+}
+#go {
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: bolder;
+    align-self: center;
+    width: 60%;
+    background-color: #EDB217;
+    border-radius: 50px;
+    border: #EDB217 ;
+}
+#go:hover{
+    background-color: #d39d16;
+}
+#email-updates-input h2 {
+    font-size: 30px;
+}
+
+#restore {
+    text-align: center;
+    padding: 0px 20px;
+}
+#restore img {
+    border-radius: 25px;
+}
+#restore img:hover {
+    transition: all .5s;
+}
+#Menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pizzas h3{
+    color: rgb(1, 61, 41);
+
+}
+#Menu img {
+    width: 200px;
+    border-radius: 15%;
+}
+
+footer{
+    background-color: #202020;
+    color: #fff; 
+    padding-top: 50px;
+}
+footer h1{
+    color: #EDB217;
+}
+#comment{
+    width: 100%;
+    text-align: center;
+    background-color: #202020;
+}
+#comment p{
+    margin-top: 0;
+    font-size: 30px;
+}
+#comment form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+}
+#comment input {
+    outline: none;
+    height: 60px;
+    width: 80%;
+    border: 3px solid #EDB217;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+#comment #message {
+    height: 200px;
+}
+#comment #message::placeholder {
+    position: absolute;
+    top: 20px;
+}
+.inputs  input{
+    margin: 20px;
+}
+#comment #comment-btn{
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    background-color: #EDB217;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+}
+#ourloca{
+    font-size: 40px;
+    cursor: pointer;
+}
+#achnadmap{
+    width: 70%;
+    height: 9cm;
+    border-radius: 25px;
+    border: 0px solid;
+    margin-bottom: 50px;
+}
+.cousservice{
+    display: flex;
+    justify-content: space-around;
+    color: #EDB217;
+    margin: 90px;
+    font-size: 20px;
+}
+#contactus{
+    font-size: 40px;
+}
+#icoonn{
+    font-size: 45px;
+    cursor: pointer;
+}
+#copy-right {
+    color: #fff;
+    background-color: #313131;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#copy-right p {
+    padding-right: 20px;
+}
+#copy-right-content{
+    display: flex;
+    align-items: center;
+}
+#s-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #EDB217;
+}
+#s-icons i {
+    margin-right: 20px;
+}
+#copy-right-content span:hover {
+    cursor: pointer;
+    color: #d39d16;
+}
+#for-mobile{
+    display: none;
+}
+#cntct{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+
+
+
+
+
+
+
+
+@media (max-width:929px){
+
+
+body {
+    font-family: 'Antonio', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #202020;
+}
+
+#arrowup{
+
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 30px;
+    z-index: 1;
+    position: absolute;
+    background-color: #EDB217;
+    color: #202020;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+    display: none;
+}
+
+span{
+    color: #EDB217;
+}
+nav {
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    background-color: #202020;
+    color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    position: sticky;
+}
+nav #logo{
+    display: none;
+    padding-left: 50px;
+}
+#logos{
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 5px;
+    position: sticky;
+    position: absolute;
+}
+#left-logo{
+    width: 25%;
+    height: 25%;
+}
+#west{
+    width: 150px;
+}
+#right-menu button {
+    color: #EDB217;
+    background-color: transparent;
+    border: 0px;
+    font-size: 50px;
+}
+#the-menu {
+    display: none;
+    width: 100%;
+    background-color: #2020209a;
+    position: absolute;
+}
+nav h2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    margin-left: 50px;
+    padding: 7px ;
+    color: #EDB217;
+    background-color: transparent;
+    border:2px solid #EDB217;
+}
+nav h2:hover {
+    background-color: #EDB217;
+    color: white;
+}
+#nav-contant {
+    display: none;
+    
+}
+#nav-contant a {
+    text-decoration: none;
+}
+#slogo {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#slogo p{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+video{ 
+    /* filter: blur(8px); */
+    width: 100%;  
+}
+
+#brgr {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+#brgr:focus {
+    outline: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+aside {
+    width: 100%;
+}
+
+
+
+#personal-card{
+    font-family: 'Arapey', serif;
+    text-align: center;
+    padding: 10px 25px;
+
+}
+#personal-card img {
+    border-radius: 25px;
+    margin-top: 40px;
+    width: 100%;
+}
+#personal-card h3 {
+    font-size: 30px;
+}
+#personal-card p {
+    font-size: 25px;
+}
+
+
+
+#email-updates-input {
+    color: #202020;
+    padding: 25px 20px 25px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDB217;
+    border-radius: 0px 0px 25px 25px;
+}
+#email-updates-input form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#email-updates-input input {
+    border: 3px solid #EDB217;
+    border-radius: 50px;
+    height: 50px;
+    outline: none;
+    margin-top: 50px;
+}
+#email-updates-input input::placeholder{
+    font-style: italic;
+}
+#email-input{
+    font-size: 18px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+#email-input:hover{
+    background-color: rgb(245, 245, 245);
+}
+#go {
+    color: #EDB217;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: bolder;
+    align-self: center;
+    width: 70%;
+    background-color: #202020;
+    border-radius: 50px;
+}
+
+#email-updates-input h2 {
+    font-size: 30px;
+}
+
+#restore {
+    text-align: center;
+}
+#restore img {
+    width: 100%;
+    height: 26vh;
+}
+#restore p{
+    font-size: 18px;
+}
+
+.pizzas h3{
+    color: rgb(1, 61, 41);
+
+}
+#Menu img {
+    width: 200px;
+    border-radius: 15%;
+}
+
+footer{
+    background-color: #202020;
+    color: #fff; 
+}
+#comment{
+    width: 100%;
+    text-align: center;
+    background-color: #202020;
+}
+#comment p{
+    margin-top: 0;
+    font-size: 30px;
+}
+/* #comment form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+}
+#comment input {
+    outline: none;
+    height: 60px;
+    width: 80%;
+    border: 3px solid #EDB217;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+#comment #message {
+    height: 200px;
+}
+#comment #message::placeholder {
+    position: absolute;
+    top: 20px;
+} */
+.inputs  input{
+    margin: 20px;
+}
+#comment #comment-btn{
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    background-color: #EDB217;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+}
+#for-desktop .inputs{
+    display: none;
+}
+#for-mobile{
+    display: flex;
+    justify-content: center;
+}
+#for-mobile form{
+    display: flex;
+    flex-direction: column;
+
+}
+#for-mobile input{
+    margin-bottom: 20px;
+    outline: none;
+    height: 60px;
+    border: 3px solid #EDB217;
+    border-radius: 25px;
+    padding: 0PX 50px;
+}
+#for-mobile input::placeholder{
+    font-style: italic;
+}
+#btnn{
+    height: 200px;
+    background-color: #EDB217;
+    font-weight: bold;
+    font-size: 20px;
+}
+#achnadmap{
+    border: 0px;
+    border-radius: 15px;
+    margin: 20px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#copy-right {
+    color: #fff;
+    background-color: #313131;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#copy-right p {
+    padding-right: 20px;
+}
+#copy-right-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#s-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #EDB217;
+}
+#s-icons i {
+    margin-right: 20px;
+}
+#copy-right-content span:hover {
+    cursor: pointer;
+    color: #d39d16;
+}
+.cousservice{
+    display: flex;
+    flex-direction: column;
+    color: #EDB217;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+#contactus{
+    font-size: 20px;
+}
+#icoonn{
+    font-size: 45px;
+    cursor: pointer;
+}
+#ourloca{
+    font-size: 30px;
+}
+
+}
