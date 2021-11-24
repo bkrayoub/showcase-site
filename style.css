@@ -905,6 +905,9 @@ element.style {
     cursor: pointer;
     color: #d39d16;
 }
+#copy-right-content P{
+text-align: center;
+}
 .cousservice{
     display: flex;
     flex-direction: column;
