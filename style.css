@@ -18,8 +18,9 @@ h1 {
     color: #202020;
 }
 
+
 #arrowup{
-    
+
     margin-top: 40px;
     margin-left: 80px;
     font-size: 30px;
@@ -35,7 +36,6 @@ h1 {
     align-items: center;
     text-decoration: none;
     position: fixed;
-    display: none;
 }
 #manuBtn{
     display: none;
@@ -79,6 +79,75 @@ nav h2:hover {
     background-color: #EDB217;
     color: white;
 }
+/*
+  TODO: 
+*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+    display: none;
+  }
+ 
+element.style {
+    font-size: 30px;
+    cursor: pointer;
+    MARGIN-LEFT: 8CM;
+    display: none;
+}
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+  }
+  .buttttonn{
+      margin-left: 8cm;
+      display: none;
+  }
+
+ element.style {
+    font-size: 50px;
+    ANIMATION-FILL-MODE: BACKWARDS;
+    cursor: pointer;
+    MARGIN-LEFT: 8CM;
+    display: none;
+}
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    display: none;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    display: none;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    display: none;
+  }
+/*
+
+  TODO: 
+*/
 #nav-contant {
     
     display: flex;
@@ -463,10 +532,12 @@ nav {
     justify-content: space-between;
     position: relative;
     position: sticky;
+    
 }
 nav #logo{
     display: none;
     padding-left: 50px;
+    display: none;
 }
 #logos{
     z-index: 3;
@@ -476,6 +547,7 @@ nav #logo{
     margin: 0px 5px;
     position: sticky;
     position: absolute;
+    margin-top: 16PX;
 }
 #left-logo{
     width: 25%;
@@ -733,10 +805,71 @@ footer{
 
 
 
+#arrowup{
+    display: none;
+}
 
+/*
+  TODO: 
+*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+ 
+element.style {
+    font-size: 30px;
+    cursor: pointer;
+    MARGIN-LEFT: 8CM;
+    
+}
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .buttttonn{
+      margin-left: 8cm;
+  }
 
-
-
+ element.style {
+    font-size: 50px;
+    ANIMATION-FILL-MODE: BACKWARDS;
+    cursor: pointer;
+    MARGIN-LEFT: 8CM;
+}
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+/*
+  TODO: 
+*/
 
 
 #copy-right {
