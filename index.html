@@ -4,54 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>site vitrine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <title>Mama Mia | home</title>
 </head>
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
 <body>
-    <h1 id="location">OUR LOCATION IS HERE</h1>
-    <div class="map">
-        <div id="imgmap">
-            <iframe id="achnadmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4337.79483546398!2d-5.8320983989741375!3d35.73574311913992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b8723da9858c3%3A0x6dd7cf06b3bdd6f!2zU2Nob29sIEhhc3NhbiAyINir2KfZhtmI2YrYqSDYp9mE2K3Ys9mGIElp!5e1!3m2!1sen!2sma!4v1637138664092!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <a href="#" id="arrowup"><i class="fas fa-arrow-up"></i></a>
+    <!-- <div id="sidemenu">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>CONTACT US</li>
+        </ul>
+    </div> -->
+    <header>
+            <div id="logos">                
+                <img src="logo.png" alt="" id="left-logo">
+                <img src="center-mobile-logo.png" alt="" id="west">
+                <div id="right-menu">
+                 
+                </div>
+            </div>
+        <nav>
+            <!--
+              TODO: 
+            -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#">HOME</a>
+                  <a href="#">ABOUT US</a>
+                  <a href="#">CONTACT US</a>
+                  
+                </div>
+              </div>
+             
+            <div class="buttttonn">
+              <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+              <!--
+                TODO:
+              -->
+              
+           
+            
+           
+            
+            <img src="desktop-logo.png" alt="" height="90px" id="logo">
+            <div id="nav-contant">
+                <a href="index.html"><h2>HOME</h2></a>
+                <a href="#info"><H2>ABOUT US</H2></a>
+                <a href="#comment"><H2>CONTACT US</H2></a>
+            </div>
+        </nav>
+        <div id="slogo">
+            <p><span>TUTTE</span> LE STRADE<br><SPan> PORTANO</SPan> AL RISTORANTE DI <br><span>Mama Mia!</span></p>
+            <video id="bgvid" poster="video\bg-poster.jpg" autoplay muted loop>
+                <source src="video\background.mp4" type="video/mp4">
+            </video>
         </div>
-        <div id="imgcity">
-            <H1>WHAT IS YOUR CITY ?</H1>
-            <div class="citys">
-            <h2 id="Casablanca">Casablanca</h2>
-            <h2 id="tanger">TANGER</h2>
-            <h2 id="tetouan">Tétouan</h2>
-            <h2 id="rabat">Rabat</h2>
-            <h2 id="oujda">Oujda</h2>
-            <h2 id="marakech">Marrakech</h2>
-            <h2 id="fes">Fès</h2>
-            <h2 id="asilah">Asilah</h2>
-            <h2 id="meknes">Meknès</h2>
-            <h2 id="chefch">Chefchaouen</h2>
-            <h2 id="kenitra">Kénitra</h2>
-            <h2 id="agadir">Agadir</h2>
+    </header>
+    <main>
+        <aside>
+            <div id="personal-card">
+                <img src="marcelloferrarini.png" alt=""> 
+                <h3>Marcello Ferrarini</h3>
+                <p>Martislo is an Italian chef and restaurant owner. His restaurants have been awarded 16 Michelin stars, two have been pulled, and he has maintained 14 stars. His signature restaurant in Chelsea.</p>
+            </div>
+            <div id="email-updates-input">
+                <h2>ADD YOUR EMAIL <br> AND <br> RECEIVE THE LATEST UPDATES</h2>
+                <form>
+                    <input type="text" placeholder="Email" id="email-input">
+                    <input type="button" value="GO" id="go">
+                </form>
+            </div>
+        </aside>
+            <section id="info">
+                <div id="restore">
+                    <h1>ABOUT US</h1>
+                    <h2>Live with <span>pizza</span> in an atmosphere full of <span>elegance</span>.</h2>
+                    <img src="resto.png" alt="">
+                    <p>Restaurant Mamma Mia! is an Italian restaurant
+                        with several branches around th e world. This is the only branch in North Africa and the Middle East. welcome.</p>
+                        <HR>
+                            <H1>MENU</H1>
+                <div id="Menu">
+                    <div class="pizzas">
+                        <img src="lwl.png" alt="">
+                        <h3>Hom & Crab Stick<br>49,00 MAD</h3>
+                        
+                    </div>
+                    <div class="pizzas">
+                        <img src="tani.png" alt="">
+                        <h3>Park Deluxe<br>79,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="talet.png" alt="">
+                        <h3>Double Pepporoni<br>35,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="rabe3.png" alt="">
+                        <h3>pizza Margherita <br>35,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="khames.png" alt="">
+                        <h3>Double Pepporoni <br>15,00 MAD</h3>
+                    </div>
+                    <div class="pizzas">
+                        <img src="lakher.png" alt="">
+                        <h3>Super Seofood <br>120,00 MAD</h3>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section id="comment">
+            <h1>CONTACT US</h1> 
+        <form id="for-desktop">
+            
+                <div class="inputs 1">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Email">
+                    <input type="button" value="comment" id="comment-btn">
+                </div>
+
+                <div class="inputs 2">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Message" id="message"> 
+                </div>
+        </form>
+        <h1 style="color: #EDB217; margin-bottom: 50px;" id="cntct">CONTACT US</h1> 
+        <div id="for-mobile">
+            <form action="">
+                <input type="First Name" placeholder="First Name">
+                <input type="Last Name" placeholder="Last Name">
+                <input type="Email" placeholder="Email">
+                <input type="Message" placeholder="Message">
+                <input type="button" value="SEND" id="btnn">
+            </form>
+        </div>       
+                    <!-- <textarea cols="30" rows="10" placeholder="Message"></textarea> -->
+        <div class="cousservice">
+            <DIV id="phonne">
+                <i id="icoonn" class="fas fa-phone-alt"></i>
+                <h2 id="contactus">+212678789900</h2> 
+            </DIV>
+            <div id="emailll">
+                <i id="icoonn" class="fas fa-envelope"></i>
+                <h2  id="contactus">mamiamar@gmail.com</h2>
+            </div>
         </div>
+            <h2 id="ourloca">OUR LOCATION IS <span id="here"> HERE</h2></span>
+            <iframe id="achnadmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4337.79483546398!2d-5.8320983989741375!3d35.73574311913992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b8723da9858c3%3A0x6dd7cf06b3bdd6f!2zU2Nob29sIEhhc3NhbiAyINir2KfZhtmI2YrYqSDYp9mE2K3Ys9mGIElp!5e1!3m2!1sen!2sma!4v1637138664092!5m2!1sen!2sma" allowfullscreen="" loading="lazy"></iframe>   
+           
+        </section>
+        <div id="copy-right">
+            <div id="s-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div id="copy-right-content">
+                <p>© 2021 Mama Mia. All right reserved. <span>Terms of Use and Privacy Policy</span></p>
+                <div id="flag">
+                    <img src="italy.png" alt="" height="30px">
+                    <img src="morocco.png" alt="" height="30px">
+                    <img src="halal.png" alt="" height="30px">
+                </div>
+            </div>
         </div>
-    </div>
-<footer>
-    <H1>Do not forget to write your phone number OR EMAIL to receive the latest offers</H1>
-    <form action="">
-       <span> <input type="text" placeholder="Phone Number"> <input type="text" placeholder="Email"></span>
-       
-    </form>
-    <button id="gooo">GO</button>
-   
-</footer>
-<div class="copuright">
-   <span> <i class="fab fa-twitter"></i> <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i></span>
-<P>© 2021 Mama Mia. All right reserved. Terms of Use and Privacy & Policy</P>
-</div>
-
-
-
-
-
-
-
-
+    </footer>
+    <script src="main.js"></script>
+    
 </body>
 </html>
