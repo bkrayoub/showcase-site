@@ -35,6 +35,7 @@ h1 {
     align-items: center;
     text-decoration: none;
     position: fixed;
+    display: none;
 }
 #manuBtn{
     display: none;

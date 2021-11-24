@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="main.js">
     <title>Mama Mia | home</title>
 </head>
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
 <body>
     <a href="#" id="arrowup"><i class="fas fa-arrow-up"></i></a>
     <!-- <div id="sidemenu">
@@ -23,12 +32,33 @@
                 <img src="logo.png" alt="" id="left-logo">
                 <img src="center-mobile-logo.png" alt="" id="west">
                 <div id="right-menu">
-                    <button>
-                        <i class="fas fa-bars"></i>
-                    </button>
+                 
                 </div>
             </div>
         <nav>
+            <!--
+              TODO: 
+            -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="index.html">HOME</a>
+                  <a href="#info">ABOUT US</a>
+                  <a href="#comment">CONTACT US</a>
+                  
+                </div>
+              </div>
+             
+            <div class="buttttonn">
+              <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+              <!--
+                TODO:
+              -->
+              
+           
+            
+           
+            
             <img src="desktop-logo.png" alt="" height="90px" id="logo">
             <div id="nav-contant">
                 <a href="index.html"><h2>HOME</h2></a>
@@ -153,7 +183,7 @@
             </div>
         </div>
     </footer>
-    <script src="main.js"></script>
+    
     
 </body>
 </html>
